@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Oswald, Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 const oswald = Oswald({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <main className="w-full flex-1">
             {children}
           </main>
+          <Footer/>
         </div>
       </body>
     </html>
