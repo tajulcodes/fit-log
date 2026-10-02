@@ -13,3 +13,7 @@ export type Workout = {
   description: string;
   instructions: string[];
 };
+
+export type PlanWorkout = Workout & {
+  isDone: boolean;
+};
