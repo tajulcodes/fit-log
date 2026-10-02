@@ -4,7 +4,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section className="mx-auto w-full max-w-[1440px] px-5 pt-7">
-      <div className="relative flex min-h-[253px] items-center overflow-hidden rounded-xl border border-[#252733] bg-[#15161e] px-8 py-8 sm:px-10 md:px-8 lg:px-8">
+      <div className="relative flex min-h-[360px] items-center overflow-hidden rounded-xl border border-[#252733] bg-[#15161e] px-8 py-8 sm:px-8 md:px-8 lg:px-10">
         <div className="relative z-10 w-full max-w-[530px]">
           <p className="mb-3 text-[10px] font-bold tracking-wide text-[#c8ff00]">
             WORKOUT LIBRARY
@@ -29,7 +29,7 @@ const Hero = () => {
           </Link>
         </div>
 
-        <div className="pointer-events-none absolute inset-y-0 right-0 hidden w-[42%] md:block">
+        <div className="pointer-events-none absolute bottom-0 right-0 m-5 h-[58%] w-[55%] sm:h-[65%] sm:w-[45%] md:inset-y-0 md:h-auto md:w-[38%] lg:w-[42%]">
           <Image
             src="/assets/banner.png"
             alt="Athlete working out with dumbbells"
